@@ -6,8 +6,6 @@ public abstract class Window :MonoBehaviour
     [SerializeField] private AudioSource _sound;
     [SerializeField] private AudioSource _gameplay;
 
-    [SerializeField] private Test _test;
-
     protected internal virtual void Enable()
     {
         ActiveWindow();
