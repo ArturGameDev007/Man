@@ -2,8 +2,5 @@ using UnityEngine;
 
 public class Test :MonoBehaviour
 {
-    private void Awake()
-    {
-
-    }
+    [SerializeField] private Player _player;
 }
