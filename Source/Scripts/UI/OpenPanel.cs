@@ -15,3 +15,4 @@ public class OpenPanel :MonoBehaviour
         Time.timeScale = 0f;
     }
 }
+
