@@ -1,25 +1,22 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class ButtonTemp :MonoBehaviour
+public class PauseGameplay :MonoBehaviour
 {
     [SerializeField] private GameObject _panel;
+    //[SerializeField] private PausePanel _menu;
 
     private bool _isPaused = false;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-        {
             OnPauseButtonClick();
-        }
     }
-
 
     private void Start()
     {
-
+        _panel?.SetActive(false);
     }
-
 
     public void OnPauseButtonClick()
     {
@@ -41,8 +38,6 @@ public class ButtonTemp :MonoBehaviour
     {
         Time.timeScale = 1f;
         _isPaused = false;
-
         _panel?.SetActive(false);
     }
-
 }
