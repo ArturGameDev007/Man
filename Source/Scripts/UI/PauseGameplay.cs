@@ -4,6 +4,7 @@ public class PauseGameplay :MonoBehaviour
 {
     [SerializeField] private GameObject _panel;
     [SerializeField] private PausePanel _menu;
+    [SerializeField] private PlayerMove _player;
 
     private bool _isPaused = false;
 
@@ -24,12 +25,13 @@ public class PauseGameplay :MonoBehaviour
         {
             ResumeGame();
             _menu.Play();
+            _player.Enable();
         }
         else
         {
             PauseGame();
             _menu.Pause();
-
+            _player.Disable();
         }
     }
 
