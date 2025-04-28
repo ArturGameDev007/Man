@@ -102,7 +102,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4059560703491611830}
-  - component: {fileID: 8645291416278353336}
+  - component: {fileID: 7337100915862519599}
   m_Layer: 0
   m_Name: Pause
   m_TagString: Untagged
@@ -125,7 +125,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2095321126571777771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8645291416278353336
+--- !u!114 &7337100915862519599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,11 +134,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3056472476683849364}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d56343867b95f1f40afafae87a5c783c, type: 3}
+  m_Script: {fileID: 11500000, guid: 51d4ccce34949574799f55d3de9f366c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _button: {fileID: 0}
   _panel: {fileID: 0}
+  _menu: {fileID: 0}
+  _player: {fileID: 0}
 --- !u!1 &4437746108590089213
 GameObject:
   m_ObjectHideFlags: 0
@@ -186,4 +187,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d13817c2a57316f4bbccda05ff7bf828, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
+  _coin: {fileID: 0}
