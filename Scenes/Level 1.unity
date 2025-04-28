@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _panel: {fileID: 1684896310}
+  _menu: {fileID: 448455283}
 --- !u!1 &1684896310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8726581729128701302, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}

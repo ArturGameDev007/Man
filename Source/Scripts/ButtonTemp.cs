@@ -9,15 +9,12 @@ public class ButtonTemp :MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-        {
             OnPauseButtonClick();
-        }
     }
-
 
     private void Start()
     {
-
+        _panel?.SetActive(false);
     }
 
 
