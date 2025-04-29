@@ -17,8 +17,7 @@ public class LevelStart :MonoBehaviour
 
     private void OnCLick()
     {
-        _button.Click -= OnCLick;
-
         _player.StartLevel();
+        _button.Click -= OnCLick;
     }
 }
