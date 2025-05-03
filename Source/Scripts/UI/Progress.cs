@@ -2,7 +2,13 @@ using UnityEngine;
 
 public class Progress :MonoBehaviour
 {
-    public int Coin;
+    [SerializeField] private int _coin;
+
+    public int Coin
+    {
+        get => _coin;
+        set => _coin = value;
+    }
 
     public static Progress Instance;
 

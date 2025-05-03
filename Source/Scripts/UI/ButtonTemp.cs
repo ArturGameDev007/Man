@@ -17,7 +17,6 @@ public class ButtonTemp :MonoBehaviour
         _panel?.SetActive(false);
     }
 
-
     public void OnPauseButtonClick()
     {
         if (_isPaused)

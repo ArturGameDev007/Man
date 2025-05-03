@@ -16,7 +16,32 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b5415c1b41ab24d4d99c3ac569f86e57
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 52066fc285ffc4bb0b9fc98f1d840149
+    m_Address: Assets/MyAdressableAsset/btn_icon_gold.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ab6c3dec7f9c13418bb0a850130ff60
+    m_Address: Assets/MyAdressableAsset/top_btn_right.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 679260cbe32b75e4ea04614c70e1fb87
+    m_Address: Assets/MyAdressableAsset/top_status_btn_get_yellow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 857146a0dde4b33468bbdc000da07cf4
+    m_Address: Assets/MyAdressableAsset/character_lv_bar_bg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d23f2f0858b6c1b43b9d065ddfcba128
+    m_Address: Assets/MyAdressableAsset/pause_btn_icon_exit.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 6b5c5d0f08b1bf54f944314e88a64848, type: 2}
   m_SchemaSet:

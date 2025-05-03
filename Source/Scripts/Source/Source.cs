@@ -14,6 +14,7 @@ public class Source :MonoBehaviour
 
     private float _maxValue = 1f;
     private float _minValue = 0f;
+    private float _currentValue;
 
     private void Start()
     {
@@ -23,7 +24,7 @@ public class Source :MonoBehaviour
 
     private void Update()
     {
-        CurrentValue();
+        CurrentValue(_currentValue);
 
         if (_maxValue == _minValue)
         {
@@ -37,10 +38,10 @@ public class Source :MonoBehaviour
         }
     }
 
-    private void CurrentValue()
+    private void CurrentValue(float value)
     {
-        float currentValue = _slider.value;
-        _maxValue = currentValue;
+        _currentValue = _slider.value;
+        _maxValue = _currentValue;
     }
 
     private void OnIcon(bool value)

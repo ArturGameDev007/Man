@@ -761,6 +761,7 @@ GameObject:
   - component: {fileID: 2313191781375421037}
   - component: {fileID: 6360453008877378860}
   - component: {fileID: 7783285433135854926}
+  - component: {fileID: 8655622681295944781}
   m_Layer: 5
   m_Name: PauseButton
   m_TagString: Untagged
@@ -816,7 +817,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f337ec50763134ed1bbb82848ae3b024, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -896,6 +897,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 6360453008877378860}
   _sound: {fileID: 7726088761451103933}
+--- !u!114 &8655622681295944781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1183613978100955250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368cf1b61b296dc4c95eb78275a2e8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadableSprite:
+    m_AssetGUID: 5ab6c3dec7f9c13418bb0a850130ff60
+    m_SubObjectName: top_btn_right
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  _uiImage: {fileID: 2313191781375421037}
 --- !u!1 &1451760159744397715
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,6 +2676,7 @@ GameObject:
   - component: {fileID: 412192874198721252}
   - component: {fileID: 4286871762345869558}
   - component: {fileID: 8502884354778858659}
+  - component: {fileID: 6321913146361334182}
   m_Layer: 5
   m_Name: Icon
   m_TagString: Untagged
@@ -2710,7 +2731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cd4f5d6acfdcc49288d2e34761f088bc, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2720,6 +2741,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6321913146361334182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5267220271947088604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368cf1b61b296dc4c95eb78275a2e8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadableSprite:
+    m_AssetGUID: d23f2f0858b6c1b43b9d065ddfcba128
+    m_SubObjectName: pause_btn_icon_exit
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  _uiImage: {fileID: 8502884354778858659}
 --- !u!1 &5765365889375919523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,6 +2947,7 @@ GameObject:
   - component: {fileID: 1431257563350061460}
   - component: {fileID: 7798020369080831975}
   - component: {fileID: 3977315120682089092}
+  - component: {fileID: 7085460720380572214}
   m_Layer: 5
   m_Name: AddCoin
   m_TagString: Untagged
@@ -2961,7 +3002,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d8dfea1100ec541b684f3101cad0d335, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3015,6 +3056,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7085460720380572214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6060310398924046902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368cf1b61b296dc4c95eb78275a2e8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadableSprite:
+    m_AssetGUID: 679260cbe32b75e4ea04614c70e1fb87
+    m_SubObjectName: top_status_btn_get_yellow
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  _uiImage: {fileID: 7798020369080831975}
 --- !u!1 &6150971936437009396
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,6 +3679,7 @@ GameObject:
   - component: {fileID: 29800133862164124}
   - component: {fileID: 8434890985176126830}
   - component: {fileID: 7810502598046677252}
+  - component: {fileID: 2222060776593685776}
   m_Layer: 5
   m_Name: Exit
   m_TagString: Untagged
@@ -3743,6 +3804,21 @@ MonoBehaviour:
   _sound: {fileID: 7726088761451103933}
   _panel: {fileID: 6814287482898269495}
 --- !u!114 &7810502598046677252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6607613941749265843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80c7dca4080ece47baae6854d3c7bbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 29800133862164124}
+  _sound: {fileID: 7726088761451103933}
+  _panel: {fileID: 6814287482898269495}
+--- !u!114 &2222060776593685776
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4315,6 +4391,7 @@ GameObject:
   - component: {fileID: 2610152784665065750}
   - component: {fileID: 8649911070917400433}
   - component: {fileID: 6743306364025714244}
+  - component: {fileID: 3436072053799254309}
   m_Layer: 5
   m_Name: CoinView
   m_TagString: Untagged
@@ -4369,7 +4446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 52066fc285ffc4bb0b9fc98f1d840149, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4379,6 +4456,25 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3436072053799254309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7957492599685804552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368cf1b61b296dc4c95eb78275a2e8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadableSprite:
+    m_AssetGUID: 52066fc285ffc4bb0b9fc98f1d840149
+    m_SubObjectName: btn_icon_gold
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  _uiImage: {fileID: 6743306364025714244}
 --- !u!1 &8138762949830769943
 GameObject:
   m_ObjectHideFlags: 0
@@ -4546,7 +4642,7 @@ RectTransform:
   m_Father: {fileID: 4174572949975422445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 30, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -5084,6 +5180,7 @@ GameObject:
   - component: {fileID: 3144440233419364893}
   - component: {fileID: 7198974758773448457}
   - component: {fileID: 756223583528599223}
+  - component: {fileID: 2220901375117294748}
   m_Layer: 5
   m_Name: Background
   m_TagString: Untagged
@@ -5141,7 +5238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e7431356ba764d2cbc73ae363cad75a, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5195,6 +5292,25 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2220901375117294748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861623769511784028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 368cf1b61b296dc4c95eb78275a2e8b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _loadableSprite:
+    m_AssetGUID: 857146a0dde4b33468bbdc000da07cf4
+    m_SubObjectName: character_lv_bar_bg
+    m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_EditorAssetChanged: 1
+  _uiImage: {fileID: 7198974758773448457}
 --- !u!1 &8973901980214834098
 GameObject:
   m_ObjectHideFlags: 0
@@ -5360,7 +5476,7 @@ RectTransform:
   m_Father: {fileID: 7590919431569365480}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
