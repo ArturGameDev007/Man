@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 30
   m_LinearFogEnd: 130
-  m_AmbientSkyColor: {r: 0.45110002, g: 0.48563904, b: 0.554717, a: 1}
+  m_AmbientSkyColor: {r: 0.48694196, g: 0.51824, b: 0.5773585, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0.22352943, g: 0.7137255, b: 0.882353, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 690cfbdc70b94444ca74f0a4a08c7814, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -485,10 +485,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2476219360110997146}
+    - target: {fileID: 2376420217297139112, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2801208768176445067, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
       propertyPath: _camera
       value: 
       objectReference: {fileID: 2035249926}
+    - target: {fileID: 3425426880675530498, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4927281145177408806, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
