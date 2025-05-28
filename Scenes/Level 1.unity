@@ -485,18 +485,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2476219360110997146}
-    - target: {fileID: 2376420217297139112, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2801208768176445067, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
       propertyPath: _camera
       value: 
       objectReference: {fileID: 2035249926}
-    - target: {fileID: 3425426880675530498, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4927281145177408806, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -505,10 +497,6 @@ PrefabInstance:
       propertyPath: _gameplay
       value: 
       objectReference: {fileID: 133599547}
-    - target: {fileID: 6360453008877378860, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1637716568}
     - target: {fileID: 6606480536252396953, guid: b3f102861ac03b7409ca9bcf2fb67be4, type: 3}
       propertyPath: _manager
       value: 
